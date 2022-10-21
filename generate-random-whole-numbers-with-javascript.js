@@ -1,4 +1,4 @@
-//Estamos chamando Math.random(), multiplicando o resultado por 10, então passando o valor para a função Math.floor() para arredondar o valor para o número inteiro mais próximo.gerar. 
+//Estamos chamando Math.random(), multiplicando o resultado por 10, então passando o valor para a função Math.floor() para arredondar o valor para o número inteiro mais próximo. 
 
 //Estamos retornando um número inteiro aleatório entre 0 e 9.
 function randomWholeNum() {
