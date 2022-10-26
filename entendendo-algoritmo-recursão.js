@@ -1,6 +1,11 @@
-function regressiva(i){//essa função ficará executando para sempre
+function regressiva(i) {//essa função terá um ponto de parada
     console.log(i);
-    regressiva (i-1);
+    if (i <= 1) {
+        console.log(i);
+    }else {
+        regressiva(i - 1);
+    }
+
 }
 
 regressiva(10);
