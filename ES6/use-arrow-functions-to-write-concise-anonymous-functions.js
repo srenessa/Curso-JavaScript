@@ -4,6 +4,6 @@ const magic = () => {
 
 //pode ser escrita assim também
 
-const magic = () => new Date(); {
+//const magic = () => new Date(); {
 
-};
+//};
