@@ -4,8 +4,13 @@ const HIGH_TEMPERATURES = {
     tomorrow: 80
 };
 
-//atribuindo variáveis ​​de objetos
+// atribuindo um novo nome de variável ao extrair valores. 
+
+// Você pode fazer isso colocando o novo nome após dois pontos ao atribuir o valor.
+
+//today(nome antigo)/ highToday(novo nome atribuido).
 
 const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
 
+console.log(HIGH_TEMPERATURES);
 
