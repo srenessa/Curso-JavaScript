@@ -4,6 +4,7 @@ const LOCAL_FORECAST = {
     tomorrow: { low: 68, high: 80 }
 };
 
+//
 const { today: { low: lowToday, high: highToday } } = LOCAL_FORECAST;
 
 
