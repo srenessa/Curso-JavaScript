@@ -1,7 +1,7 @@
 let a = 8, b = 6;
 //desestruturação de array
 //atribuindo elementos a variáveis(isso não é possível no spread).
-//
+//trocando valores/  'a' está recebendo o valor armazenado em 'b' e 'b' recebendo o valor armazenado em 'a'.
 [a,b]=[b,a];
 console.log(a,b);
 
