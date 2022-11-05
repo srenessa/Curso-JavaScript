@@ -6,3 +6,7 @@ let a = 8, b = 6;
 console.log(a,b);
 
 
+//Para acessar o valor em qualquer índice em um array com desestruturação é necessário usar vírgulas para chegar ao índice desejado:
+//const [a, b,,, c] = [1, 2, 3, 4, 5, 6];
+//console.log(a, b, c);
+//O console exibirá os valores de a, b e c como 1, 2, 5.
