@@ -6,5 +6,5 @@ function removeFirstTwo(list) {
     return arr;
 }
 const arr = removeFirstTwo(source);
-console.log(arr);
-console.log(source);
+console.log(arr);//será exibido 3,4,5,6,7,8,9,10
+console.log(source);//será exibido 1,2,3,4,5,6,7,8,9,10
