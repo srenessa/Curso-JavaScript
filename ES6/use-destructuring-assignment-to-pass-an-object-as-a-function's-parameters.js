@@ -7,5 +7,5 @@ const stats = {
     average: 35.85
 };
 
-
+// Only change code above this line
 const half = ({ max, min }) => (max + min) / 2.0;
