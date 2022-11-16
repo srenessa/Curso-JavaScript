@@ -5,12 +5,12 @@ const result = {
 };
 function makeList(arr) {
     "use strict";
-   
+
     const failureItems = [];
     for (let i = 0; i < arr.length; i++) {
         failureItems.push(`<li class="text-warning">${arr[i]}</li>`);
     }
-   
+
     return failureItems;
 }
 
