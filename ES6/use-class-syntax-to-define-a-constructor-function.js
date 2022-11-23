@@ -5,6 +5,6 @@ class Vegetable {
 }
 
 const carrot = new Vegetable("carrot");
-console.log(carrot.name); // => should be 'carrot'
+console.log(carrot.name); // deve exibir "carrot"(cenoura)
 
 
