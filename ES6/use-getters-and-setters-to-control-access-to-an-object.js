@@ -1,3 +1,4 @@
+//Use getters e setters para controlar o acesso a um objeto
 class Thermostat {
     constructor(fahrenheit) {
         this.fahrenheit = fahrenheit;
