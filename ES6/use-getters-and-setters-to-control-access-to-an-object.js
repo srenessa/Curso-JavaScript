@@ -1,4 +1,6 @@
 //Use getters e setters para controlar o acesso a um objeto
+//funções getter retorna (obtem) o valor da variável privada de um objeto
+//modifica (define) o valor da variável privada de um objeto
 class Thermostat {
     constructor(fahrenheit) {
         this.fahrenheit = fahrenheit;
