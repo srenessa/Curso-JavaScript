@@ -1,3 +1,6 @@
+//exportar funções ou variávies 
+
+//primeiro método
 export const uppercaseString = (string) => {
     return string.toUpperCase();
 }
