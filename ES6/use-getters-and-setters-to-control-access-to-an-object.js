@@ -5,7 +5,8 @@ class Thermostat {
     constructor(fahrenheit) {
         this.fahrenheit = fahrenheit;
     }
-
+// getter para obter a temperatura em Celsius 
+// um setter para definir a temperatura em Celsius.
     get temperature() {
         return (5 / 9) * (this.fahrenheit - 32);
     }
