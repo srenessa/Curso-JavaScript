@@ -7,7 +7,7 @@ export const lowercaseString = (string) => {
 }
 
 
-
+// segundo método
 
 //const uppercaseString = (string) => {
   //  return string.toUpperCase();
