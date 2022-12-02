@@ -1,3 +1,6 @@
+//Uma promessa tem três estados: pendente, cumprida e rejeitada
+
+
 const makeServerRequest = new Promise((resolve, reject) => {
     let responseFromServer;
 
