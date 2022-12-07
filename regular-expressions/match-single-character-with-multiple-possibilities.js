@@ -1,3 +1,9 @@
+//Use uma classe de caracteres com vogais (a, e, i, o, u) em seu vogalRegex regex para encontrar todas as vogais na string quoteSample.
+
+//Por exemplo, você deseja combinar bag, big e bug. Você pode criar o regex /b[aiu]g/ para fazer isso. O [aiu] é a classe de caracteres que corresponderá apenas aos caracteres a, i ou u.
+
 let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
-let vowelRegex = /[aeiou]/gi; // Change this line
-let result = quoteSample.match(vowelRegex); // Change this line
+let vowelRegex = /[aeiou]/gi; 
+let result = quoteSample.match(vowelRegex); 
+
+console.log(result);
