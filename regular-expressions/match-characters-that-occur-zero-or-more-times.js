@@ -1,4 +1,4 @@
-// corresponde a caracteres que ocorrem zero ou mais vezes
+// Corresponde a caracteres que ocorrem zero ou mais vezes
 // O caractere para fazer isso é o asterisco ou estrela: *
 
 let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
