@@ -10,4 +10,6 @@ let text = "<h1>Winter is coming</h1>";
 let myRegex = /<.*?>/; 
 let result = text.match(myRegex);
 
+
+// mostrar no console com Ctrl + Alt + n
 console.log(result);
