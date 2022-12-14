@@ -1,1 +1,1 @@
-let reCriminals = /./; // Change this line
+let reCriminals = /C+/;
