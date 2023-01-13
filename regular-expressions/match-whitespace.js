@@ -1,3 +1,3 @@
 let sample = "Whitespace is important in separating words";
-let countWhiteSpace = /change/; 
+let countWhiteSpace = /\s/g; 
 let result = sample.match(countWhiteSpace);
