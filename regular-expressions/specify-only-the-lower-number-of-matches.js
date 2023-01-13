@@ -1,3 +1,3 @@
 let haStr = "Hazzzzah";
-let haRegex = /change/; // Change this line
+let haRegex = /Haz{4,}ah/; 
 let result = haRegex.test(haStr);
