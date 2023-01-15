@@ -1,3 +1,3 @@
 let favWord = "favorite";
-let favRegex = /change/; // Change this line
+let favRegex = /change/; 
 let result = favRegex.test(favWord);
