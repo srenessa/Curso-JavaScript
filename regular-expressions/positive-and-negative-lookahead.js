@@ -10,6 +10,8 @@
 
 // Um lookahead negativo é usado como (?!...) onde o ... é o padrão que você não quer que esteja lá.
 
+// Use lookaheads no pwRegex para corresponder senhas com mais de 5 caracteres e dois dígitos consecutivos.
+
 let sampleWord = "astronaut";
 let pwRegex =  /(?=\w{6})(?=\w*\d{2})/;
 let result = pwRegex.test(sampleWord);
