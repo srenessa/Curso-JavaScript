@@ -1,3 +1,3 @@
 let hello = "   Hello, World!  ";
-let wsRegex = /change/; 
-let result = hello; 
+let wsRegex =  /^\s+|\s+$/g; 
+let result = hello.replace(wsRegex, "");
