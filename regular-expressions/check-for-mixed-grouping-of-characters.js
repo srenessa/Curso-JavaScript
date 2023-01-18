@@ -9,3 +9,5 @@
 let myString = "Eleanor Roosevelt";
 let myRegex = /(Franklin|Eleanor|Franklin D.)\sRoosevelt/; 
 let result = myRegex.test(myString);
+
+console.log(result);
