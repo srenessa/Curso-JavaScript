@@ -1,3 +1,5 @@
+// Combine um único personagem com múltiplas possibilidades.
+
 // Use uma classe de caracteres com vogais (a, e, i, o, u) em seu vogalRegex regex para encontrar todas as vogais na string quoteSample.
 
 // Por exemplo, você deseja combinar bag, big e bug. Você pode criar o regex /b[aiu]g/ para fazer isso. O [aiu] é a classe de caracteres que corresponderá apenas aos caracteres a, i ou u.
