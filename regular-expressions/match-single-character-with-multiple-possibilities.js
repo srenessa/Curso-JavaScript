@@ -2,6 +2,8 @@
 
 // É o equilíbrio entre os dois extremos: padrões literais (/literal/) e caractere curinga (/./).
 
+//  As classes de caracteres permitem que você defina um grupo de caracteres que deseja corresponder, colocando-os entre colchetes ([ e ]).
+
 // Use uma classe de caracteres com vogais (a, e, i, o, u) em seu vogalRegex regex para encontrar todas as vogais na string quoteSample.
 
 // Por exemplo, você deseja combinar bag, big e bug. Você pode criar o regex /b[aiu]g/ para fazer isso. O [aiu] é a classe de caracteres que corresponderá apenas aos caracteres a, i ou u.
