@@ -6,5 +6,7 @@
 
 // Um criminoso é representado pela letra maiúscula C.
 
+// E o mais:+ para buscar letras iguais, chamado criminosos também.
+
 let reCriminals = /C+/;
 
