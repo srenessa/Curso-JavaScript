@@ -2,6 +2,8 @@
 
 // Para especificar um certo número de padrões, basta colocar esse número entre as chaves.
 
+// Por exemplo, para combinar apenas a palavra hah com a letra a 3 vezes, sua regex seria /ha{3}h/.
+
 // Altere o regex timRegex para corresponder à palavra Timber somente quando ela tiver quatro letras m.
 
 let timStr = "Timmmmber";
