@@ -8,4 +8,6 @@ let sample = "Whitespace is important in separating words";
 let countNonWhiteSpace = /\S/g; 
 let result = sample.match(countNonWhiteSpace);
 
+// O valor retornado pelo método .length seria 32.
+
 console.log(result);
