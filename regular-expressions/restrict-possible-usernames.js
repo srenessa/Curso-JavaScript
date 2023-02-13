@@ -1,3 +1,5 @@
+// Restringir possíveis nomes de usuário
+
 // Os únicos números no nome de usuário devem estar no final
 
 // Pode haver zero ou mais deles no final.
