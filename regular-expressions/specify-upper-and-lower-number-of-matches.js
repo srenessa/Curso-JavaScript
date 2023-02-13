@@ -6,6 +6,8 @@
 
 // Especificadores de quantidade são usados ​​com chaves ({ e }). Você coloca dois números entre as chaves - para o número inferior e superior de padrões.
 
+// Por exemplo, para corresponder apenas à letra a que aparece entre 3 e 5 vezes na string ah, sua regex seria /a{3,5}h/.
+
 let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6}\sno/; 
 let result = ohRegex.test(ohStr);
