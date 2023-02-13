@@ -1,4 +1,4 @@
-// Restringir possíveis nomes de usuário
+// Restringir possíveis nomes de usuáriokk
 
 // Os únicos números no nome de usuário devem estar no final
 
@@ -22,4 +22,5 @@ let result = userCheck.test(username);
 // 6 - ^[a-z] - primeiro caractere é uma letra
 // 7 - \d\d+ - os seguintes caracteres são 2 ou mais dígitos
 // 8 - $ - fim da entrada
+// 9 - i -  ignorar maiúsculas e minúsculas.
 
