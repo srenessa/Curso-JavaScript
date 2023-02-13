@@ -6,6 +6,8 @@
 
 // Isso verifica se há zero ou um dos elementos anteriores. Você pode pensar neste símbolo como dizendo que o elemento anterior é opcional.
 
+// Por exemplo, existem pequenas diferenças no inglês americano e britânico e você pode usar o ponto de interrogação para corresponder a ambas as grafias.
+
 let favWord = "favorite";
 let favRegex = /favou?rite/; 
 let result = favRegex.test(favWord);
