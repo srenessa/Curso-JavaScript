@@ -4,6 +4,8 @@
 
 // Caracteres transpostos, ausentes ou capitalizados incorretamente em um nome de variável ou função farão com que o navegador procure um objeto que não existe.
 
+// Corrija os dois erros de ortografia no código para que o cálculo netWorkingCapital funcione.
+
 
 /* antes
 let receivables = 10;
