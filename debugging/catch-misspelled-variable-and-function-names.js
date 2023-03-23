@@ -1,3 +1,5 @@
+// Capturar nomes de variáveis ​​e funções com erros ortográficos
+
 // Uma das formas comuns que os bugs assumem é um problema de nível de sintaxe, o erro de ortografia.
 
 
