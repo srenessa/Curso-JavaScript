@@ -2,6 +2,8 @@
 
 // Uma das formas comuns que os bugs assumem é um problema de nível de sintaxe, o erro de ortografia.
 
+// Caracteres transpostos, ausentes ou capitalizados incorretamente em um nome de variável ou função farão com que o navegador procure um objeto que não existe.
+
 
 /* antes
 let receivables = 10;
