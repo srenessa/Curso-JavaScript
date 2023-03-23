@@ -14,6 +14,8 @@ let netWorkingCapital = recievables - payable;
 console.log(`Net working capital is: ${netWorkingCapital}`);
  */
 
+
+// Alteração dos nomes "recievables - payable" para "receivables - payables".
 //depois
 let receivables = 10;
 let payables = 8;
