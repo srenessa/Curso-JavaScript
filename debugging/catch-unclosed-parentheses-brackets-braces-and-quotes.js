@@ -4,6 +4,16 @@
 
 // Corrija os erros de dois pares no código.
 
+
+// antes
+/*
+let myArray = [1, 2, 3;
+    let arraySum = myArray.reduce((previous, current =>  previous + current);
+    console.log(`Sum of array values is: ${arraySum}`);
+    */
+
+// depois
+
 let myArray = [1, 2, 3];
-let arraySum = myArray.reduce((previous, current )=>  previous + current);
+let arraySum = myArray.reduce((previous, current) => previous + current);
 console.log(`Sum of array values is: ${arraySum}`);
