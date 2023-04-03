@@ -1,5 +1,7 @@
 // Pegar o uso do operador de atribuição em vez do operador de igualdade.
 
+// Conforme abordado nos desafios anteriores, o operador de atribuição (=) em JavaScript atribui um valor a um nome de variável.
+
 
 
 let x = 7;
