@@ -1,4 +1,7 @@
-// Capturar argumentos passados ​​na ordem errada ao chamar uma função
+// Capturar argumentos passados ​​na ordem errada ao chamar uma função.
+
+// O próximo bug a ser observado é quando os argumentos de uma função são fornecidos na ordem incorreta.
+
 
 function raiseToPower(b, e) {
     return Math.pow(b, e);
