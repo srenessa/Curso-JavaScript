@@ -8,12 +8,11 @@
 
 // Certifique-se de fornecer todos os argumentos necessários, na ordem correta para evitar esses problemas.
 
-
 function raiseToPower(b, e) {
     return Math.pow(b, e);
-}
-
-let base = 2;
-let exp = 3;
-let power = raiseToPower(exp, base);
-console.log(power);
+  }
+  
+  let base = 2;
+  let exp = 3;
+  let power = raiseToPower(base, exp);
+  console.log(power);
