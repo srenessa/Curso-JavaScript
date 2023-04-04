@@ -6,6 +6,8 @@
 
 // Se os argumentos forem do mesmo tipo (todos inteiros, por exemplo), a lógica do código não fará sentido. 
 
+// Certifique-se de fornecer todos os argumentos necessários, na ordem correta para evitar esses problemas.
+
 
 function raiseToPower(b, e) {
     return Math.pow(b, e);
