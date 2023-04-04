@@ -8,6 +8,8 @@
 
 // Certifique-se de fornecer todos os argumentos necessários, na ordem correta para evitar esses problemas.
 
+// A função raiseToPower eleva uma base a um expoente. Infelizmente, não é chamado corretamente - corrija o código para que o valor de power seja o 8 esperado.
+
 function raiseToPower(b, e) {
     return Math.pow(b, e);
 }
