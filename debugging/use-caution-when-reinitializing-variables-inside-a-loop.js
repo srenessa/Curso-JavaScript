@@ -2,6 +2,8 @@
 
 // Um problema potencial é quando as variáveis ​​devem ser reinicializadas e não são, ou vice-versa.
 
+// Isso é particularmente perigoso se você redefinir acidentalmente a variável que está sendo usada para a condição do terminal, causando um loop infinito.
+
 function zeroArray(m, n) {
     // Creates a 2-D array with m rows and n columns of zeroes
     let newArray = [];
