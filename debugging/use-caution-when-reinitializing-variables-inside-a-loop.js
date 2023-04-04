@@ -4,6 +4,7 @@
 
 // Isso é particularmente perigoso se você redefinir acidentalmente a variável que está sendo usada para a condição do terminal, causando um loop infinito.
 
+// A função a seguir deve criar uma matriz bidimensional com m linhas e n colunas de zeros. Corrija o código para que ele retorne uma matriz 3x2 correta de zeros, que se parece com [[0, 0], [0, 0], [0, 0]].
 
 function zeroArray(m, n) {
     // Cria uma matriz 2-D com m linhas e n colunas de zeros
