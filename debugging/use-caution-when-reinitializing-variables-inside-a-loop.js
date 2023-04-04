@@ -13,7 +13,7 @@ function zeroArray(m, n) {
 
         let row = [];
 
-        for (let j = 0; j < n; j++) {  // Adiciona a m-ésima linha em newArray
+        for (let j = 0; j < n; j++) {  // Adiciona m linha em newArray
 
             row.push(0);  // Coloca n zeros na linha atual para criar as colunas  // O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array
         }
