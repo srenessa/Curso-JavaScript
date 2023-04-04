@@ -5,7 +5,7 @@
 // Isso é particularmente perigoso se você redefinir acidentalmente a variável que está sendo usada para a condição do terminal, causando um loop infinito.
 
 function zeroArray(m, n) {
-    // Creates a 2-D array with m rows and n columns of zeroes
+    // Cria uma matriz 2-D com m linhas e n colunas de zeros
     let newArray = [];
     let row = [];
     for (let i = 0; i < m; i++) {
