@@ -12,7 +12,7 @@ function zeroArray(m, n) {
         // Adiciona a m-ésima linha em newArray
 
         for (let j = 0; j < n; j++) {
-            // Pushes n zeroes into the current row to create the columns
+            // Coloca n zeros na linha atual para criar as colunas
             row.push(0);
         }
         // Pushes the current row, which now has n zeroes in it, to the array
