@@ -1,3 +1,5 @@
+// Capturar argumentos passados ​​na ordem errada ao chamar uma função
+
 function raiseToPower(b, e) {
     return Math.pow(b, e);
 }
