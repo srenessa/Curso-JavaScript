@@ -9,7 +9,7 @@ function zeroArray(m, n) {
     let newArray = [];
     let row = [];
     for (let i = 0; i < m; i++) {
-        // Adds the m-th row into newArray
+        // Adiciona a m-ésima linha em newArray
 
         for (let j = 0; j < n; j++) {
             // Pushes n zeroes into the current row to create the columns
