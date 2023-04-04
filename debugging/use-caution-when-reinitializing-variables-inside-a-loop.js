@@ -1,4 +1,6 @@
-// Tenha cuidado ao reinicializar variáveis ​​dentro de um loop
+// Tenha cuidado ao reinicializar variáveis ​​dentro de um loop.
+
+// Um problema potencial é quando as variáveis ​​devem ser reinicializadas e não são, ou vice-versa.
 
 function zeroArray(m, n) {
     // Creates a 2-D array with m rows and n columns of zeroes
