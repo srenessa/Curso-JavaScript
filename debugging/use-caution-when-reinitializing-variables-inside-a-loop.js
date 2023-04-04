@@ -1,3 +1,5 @@
+// Tenha cuidado ao reinicializar variáveis ​​dentro de um loop
+
 function zeroArray(m, n) {
     // Creates a 2-D array with m rows and n columns of zeroes
     let newArray = [];
