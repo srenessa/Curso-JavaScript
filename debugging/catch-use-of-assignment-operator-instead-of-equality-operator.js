@@ -6,6 +6,7 @@
 
 // E os operadores == e === verificam a igualdade (o triplo === testa a igualdade estrita, o que significa que o valor e o tipo são iguais).
 
+// Corrija a condição para que o programa execute a ramificação direita e o valor apropriado seja atribuído ao resultado.
 
 
 let x = 7;
