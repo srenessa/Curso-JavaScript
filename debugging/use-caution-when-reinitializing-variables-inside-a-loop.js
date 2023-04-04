@@ -4,6 +4,8 @@
 
 // Isso é particularmente perigoso se você redefinir acidentalmente a variável que está sendo usada para a condição do terminal, causando um loop infinito.
 
+
+
 function zeroArray(m, n) {
     // Cria uma matriz 2-D com m linhas e n colunas de zeros
     let newArray = [];
@@ -16,7 +18,7 @@ function zeroArray(m, n) {
             // O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array
             row.push(0);
         }
-        // Pushes the current row, which now has n zeroes in it, to the array
+        // Empurra a linha atual, que agora possui n zeros, para o array
         newArray.push(row);
     }
     return newArray;
