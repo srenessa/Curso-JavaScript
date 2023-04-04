@@ -4,6 +4,8 @@
 
 // Se os argumentos forem de tipos diferentes, como uma função que espera uma matriz e um número inteiro, isso provavelmente gerará um erro de tempo de execução.
 
+// Se os argumentos forem do mesmo tipo (todos inteiros, por exemplo), a lógica do código não fará sentido. 
+
 
 function raiseToPower(b, e) {
     return Math.pow(b, e);
