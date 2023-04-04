@@ -9,11 +9,12 @@
 function zeroArray(m, n) {
     // Cria uma matriz 2-D com m linhas e n colunas de zeros
     let newArray = [];
-    let row = [];
     for (let i = 0; i < m; i++) {
-        // Adiciona a m-ésima linha em newArray
 
+        let row = [];
+        // Adiciona a m-ésima linha em newArray
         for (let j = 0; j < n; j++) {
+            
             // Coloca n zeros na linha atual para criar as colunas
             // O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array
             row.push(0);
