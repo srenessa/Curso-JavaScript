@@ -4,6 +4,8 @@
 
 //  É provável que loops infinitos congelem ou travem o navegador e causem um caos geral na execução do programa.
 
+// Corrija o operador de comparação na condição terminal para que o loop seja executado apenas para i menor ou igual a 4.
+
 
 function myFunc() {
     for (let i = 1; i <= 4; i += 2) {
