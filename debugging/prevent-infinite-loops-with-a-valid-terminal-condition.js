@@ -4,7 +4,7 @@
 
 //  É provável que loops infinitos congelem ou travem o navegador e causem um caos geral na execução do programa.
 
-// Corrija o operador de comparação na condição terminal para que o loop seja executado apenas para i menor ou igual a 4.
+// Corrija o operador de comparação na condição terminal para que o loop seja executado apenas para i menor ou igual a 4. E não i igual ou diferente de 4.
 
 
 function myFunc() {
