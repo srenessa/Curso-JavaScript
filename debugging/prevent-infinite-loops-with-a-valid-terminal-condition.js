@@ -4,6 +4,8 @@
 
 //  É provável que loops infinitos congelem ou travem o navegador e causem um caos geral na execução do programa.
 
+// A função myFunc() contém um loop infinito porque a condição terminal i != 4 nunca será avaliada como falsa (e interromperá o loop).
+
 // Corrija o operador de comparação na condição terminal para que o loop seja executado apenas para i menor ou igual a 4. E não i igual ou diferente de 4.
 
 
