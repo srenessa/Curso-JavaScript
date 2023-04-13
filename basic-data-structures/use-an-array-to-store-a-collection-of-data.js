@@ -9,5 +9,7 @@
 
 // Observe que contém booleanos, strings e números, entre outros dados JavaScript válidos
 
+// Uma implementação mais complexa de um array pode ser vista abaixo.
+
 let yourArray = ['Renessa', 'Rafael', 21, 22, true];
 console.log(yourArray.length);
