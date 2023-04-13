@@ -2,4 +2,7 @@
 
 // Abaixo está um exemplo da implementação mais simples de uma estrutura de dados de matriz.
 
+
+// Isso é conhecido como uma matriz unidimensional, o que significa que ela possui apenas um nível ou que não possui nenhuma outra matriz aninhada dentro dela.
+
 let yourArray= [ 'Renessa', 'Rafael', 21, 22, true];
