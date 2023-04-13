@@ -11,8 +11,36 @@
 
 // Uma implementação mais complexa de um array pode ser vista abaixo.
 
+/*
+let complexArray = [
+    [
+       {
+        one: 1,
+        two: 2
+      },
+      {
+        three: 3,
+        four: 4
+      }
+    ],
+    [
+      {
+        a: "a",
+        b: "b"
+      },
+      {
+        c: "c",
+        d: "d"
+      }
+    ]
+  ];
+  
+*/
 
-// sso é conhecido como uma matriz multidimensional ou uma matriz que contém outras matrizes.
+// isso é conhecido como uma matriz multidimensional ou uma matriz que contém outras matrizes.
+
+// Complete a instrução atribuindo uma matriz de pelo menos 5 elementos de comprimento à variável yourArray. 
+
 
 let yourArray = ['Renessa', 'Rafael', 21, 22, true];
 console.log(yourArray.length);
