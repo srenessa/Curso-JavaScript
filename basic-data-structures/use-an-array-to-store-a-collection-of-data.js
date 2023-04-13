@@ -11,5 +11,8 @@
 
 // Uma implementação mais complexa de um array pode ser vista abaixo.
 
+
+// sso é conhecido como uma matriz multidimensional ou uma matriz que contém outras matrizes.
+
 let yourArray = ['Renessa', 'Rafael', 21, 22, true];
 console.log(yourArray.length);
