@@ -13,7 +13,6 @@
 // Para completar este desafio, defina a 2ª posição (índice 1) de myArray para o que você quiser, além da letra b.
 
 let myArray = ["a", "b", "c", "d"];
-// Only change code below this line
-myArray[1]= "tudo menos b";
-// Only change code above this line
+myArray[1]= "tudo, menos b";
+
 console.log(myArray);
