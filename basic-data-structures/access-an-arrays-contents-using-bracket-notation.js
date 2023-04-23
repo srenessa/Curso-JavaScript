@@ -1,3 +1,5 @@
+// Acessar o conteúdo de uma matriz usando a notação de colchetes
+
 let myArray = ["a", "b", "c", "d"];
 // Only change code below this line
 
