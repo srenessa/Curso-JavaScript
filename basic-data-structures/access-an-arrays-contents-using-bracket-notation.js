@@ -6,7 +6,7 @@
 
 // Para recuperar um elemento de uma matriz, podemos colocar um índice entre colchetes e anexá-lo ao final de uma matriz ou, mais comumente, a uma variável que faz referência a um objeto de matriz.
 
-// Por exemplo, se queremos recuperar o "a" de ourArray e atribuí-lo a uma variável, podemos fazê-lo com o seguinte código: let ourVariable = ourArray[0];
+// Por exemplo, se queremos recuperar o "a" de ourArray e atribuí-lo a uma variável, podemos fazê-lo com o seguinte código: let ourVariable = ourArray[0]; (Agora nossaVariável tem o valor de a.)
 
 let myArray = ["a", "b", "c", "d"];
 // Only change code below this line
