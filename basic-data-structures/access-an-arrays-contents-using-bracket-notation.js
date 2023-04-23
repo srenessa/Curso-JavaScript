@@ -10,6 +10,8 @@
 
 // Além de acessar o valor associado a um índice, você também pode definir um índice para um valor usando a mesma notação: ourArray[1] = "not b anymore"; (Usando a notação de colchetes, agora redefinimos o item no índice 1 da string b, para não mais b.)
 
+// Para completar este desafio, defina a 2ª posição (índice 1) de myArray para o que você quiser, além da letra b.
+
 let myArray = ["a", "b", "c", "d"];
 // Only change code below this line
 myArray[1]= "tudo menos b";
