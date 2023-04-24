@@ -1,3 +1,5 @@
+// Adicionar itens a um array com push() e unshift().
+
 function mixedNumbers(arr) {
     // Only change code below this line
 
