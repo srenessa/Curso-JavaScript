@@ -7,7 +7,6 @@
 function mixedNumbers(arr) {
     
 
-    
     return arr;
 }
 
