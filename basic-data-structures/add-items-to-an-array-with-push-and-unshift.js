@@ -9,7 +9,7 @@
 // // O método o método unshift()  recebem um ou mais elementos como parâmetros e adiciona elementos e ao início de uma matriz.
 
 function mixedNumbers(arr) {
-    
+    arr.unshift('I', 2, 'three');
 
     return arr;
 }
