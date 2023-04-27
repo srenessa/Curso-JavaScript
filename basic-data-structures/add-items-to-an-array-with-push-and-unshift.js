@@ -4,11 +4,11 @@
 
 // As matrizes podem ser definidas com um comprimento de qualquer número de elementos e os elementos podem ser adicionados ou removidos ao longo do tempo; ou seja, os arrays são mutáveis.
 
-// O método o método push()  recebem um ou mais elementos como parâmetros e adiciona elementos ao final de uma matriz.
+// O método push() recebe um ou mais elementos como parâmetros e adiciona elementos ao final de uma matriz.
 
-// // O método o método unshift()  recebem um ou mais elementos como parâmetros e adiciona elementos e ao início de uma matriz.
+// O método unshift() recebe um ou mais elementos como parâmetros e adiciona elementos ao início de uma matriz.
 
-// Modifique a função usando push() e unshift() para adicionar 'I', 2, 'três' ao início da matriz e 7, 'VIII', 9 ao final para que a matriz retornada contenha representações dos números 1-9 em ordem.
+// Modifique a função usando push() e unshift() para adicionar 'I', 2, 'three' ao início da matriz e 7, 'VIII', 9 ao final para que a matriz retornada contenha representações dos números 1-9 em ordem.
 
 function mixedNumbers(arr) {
 
