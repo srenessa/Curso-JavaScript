@@ -8,6 +8,8 @@
 
 // // O método o método unshift()  recebem um ou mais elementos como parâmetros e adiciona elementos e ao início de uma matriz.
 
+// Modifique a função usando push() e unshift() para adicionar 'I', 2, 'três' ao início da matriz e 7, 'VIII', 9 ao final para que a matriz retornada contenha representações dos números 1-9 em ordem.
+
 function mixedNumbers(arr) {
 
     arr.unshift('I', 2, 'three');
