@@ -4,6 +4,8 @@
 
 // pop() remove um elemento do final de um array, enquanto shift() remove um elemento do início.
 
+// A principal diferença entre pop() e shift() e seus primos push() e unshift(), é que nenhum dos métodos aceita parâmetros e cada um permite apenas que uma matriz seja modificada por um único elemento por vez.
+
 
 function popShift(arr) {
     let popped; 
