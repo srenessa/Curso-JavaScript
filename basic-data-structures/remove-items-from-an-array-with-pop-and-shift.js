@@ -2,6 +2,8 @@
 
 // Ambos push() e unshift() têm métodos correspondentes que são praticamente opostos funcionais: pop() e shift().
 
+// pop() remove um elemento do final de um array, enquanto shift() remove um elemento do início.
+
 
 function popShift(arr) {
     let popped; 
