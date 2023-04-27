@@ -1,10 +1,9 @@
 // Remova itens de um array com pop() e shift()
 
 
-
 function popShift(arr) {
-    let popped; // Change this line
-    let shifted; // Change this line
+    let popped; 
+    let shifted; 
     return [shifted, popped];
 }
 
