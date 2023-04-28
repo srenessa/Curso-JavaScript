@@ -21,7 +21,6 @@ Aqui removemos 2 elementos, começando com o terceiro elemento (no índice 2). a
 // Use splice() para remover elementos de arr, de modo que ele contenha apenas elementos que somam o valor de 10.
 
 const arr = [2, 4, 5, 1, 7, 5, 2, 1];
-arr.splice(0,4);
-arr.splice(1,1);
+arr.splice(1,4); // total 10
 
 console.log(arr);
