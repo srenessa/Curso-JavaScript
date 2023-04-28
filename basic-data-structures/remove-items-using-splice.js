@@ -19,5 +19,6 @@ Aqui removemos 2 elementos, começando com o terceiro elemento (no índice 2). a
 // splice() não apenas modifica o array em que está sendo chamado, mas também retorna um novo array contendo o valor dos elementos removidos.
 
 const arr = [2, 4, 5, 1, 7, 5, 2, 1];
-
+arr.splice(0,4);
+arr.splice(1,1);
 console.log(arr);
