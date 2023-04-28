@@ -1,6 +1,8 @@
 // Adicionar itens usando splice()
 
-// o terceiro parâmetro composto por um ou mais elemento(s) pode ser usado para adicionar ao array.
+// O terceiro parâmetro composto por um ou mais elemento(s) pode ser usado para adicionar ao array.
+
+// Isso pode ser incrivelmente útil para trocar rapidamente um elemento ou um conjunto de elementos por outro.
 
 // Modifique a função usando splice() para remover os dois primeiros elementos da matriz e adicione 'DarkSalmon' e 'BlanchedAlmond' em seus respectivos lugares.
 
