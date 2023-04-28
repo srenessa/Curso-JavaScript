@@ -4,9 +4,9 @@
 
 // splice() pode receber até 3 parâmetros.
 
-// Os dois primeiros parâmetros de splice() são inteiros que representam índices, ou posições, de itens no array para o qual splice() está sendo chamado.
-
 // O primeiro parâmetro de splice() representa o índice no array do qual começar a remover elementos, enquanto o segundo parâmetro indica o número de elementos a serem excluídos.
+
+// E lembre-se, os arrays são indexados por zero, portanto, para indicar o primeiro elemento de um array, usaríamos 0.
 
 /* Por exemplo: 
 let array = ['today', 'was', 'not', 'so', 'great'];
