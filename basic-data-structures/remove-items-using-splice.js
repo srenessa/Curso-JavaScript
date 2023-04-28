@@ -8,6 +8,11 @@
 
 // O primeiro parâmetro de splice() representa o índice no array do qual começar a remover elementos, enquanto o segundo parâmetro indica o número de elementos a serem excluídos.
 
+/* Por exemplo: 
+let array = ['today', 'was', 'not', 'so', 'great'];
+
+array.splice(2, 2); */
+
 const arr = [2, 4, 5, 1, 7, 5, 2, 1];
 
 console.log(arr);
