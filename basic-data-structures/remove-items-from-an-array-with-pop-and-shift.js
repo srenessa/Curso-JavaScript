@@ -6,6 +6,8 @@
 
 // A principal diferença entre pop() e shift() e seus primos push() e unshift(), é que nenhum dos métodos aceita parâmetros e cada um permite apenas que uma matriz seja modificada por um único elemento por vez.
 
+// Modifique a função, usando pop() e shift(), para remover o primeiro e o último elemento da matriz de argumentos e atribua os elementos removidos às suas variáveis ​​correspondentes, para que a matriz retornada contenha seus valores.
+
 
 function popShift(arr) {
     let popped; 
