@@ -4,6 +4,8 @@
 
 // A sintaxe de propagação do operador Spread simplesmente se parece com isto: ...
 
+// Definimos uma função, copyMachine, que recebe arr (um array) e num (um número) como argumentos. A função deve retornar uma nova matriz composta de num cópias de arr.
+
 function copyMachine(arr, num) {
     let newArr = [];
     while (num >= 1) {
