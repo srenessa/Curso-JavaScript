@@ -1,3 +1,5 @@
+// Copiar uma matriz com o operador Spread
+
 function copyMachine(arr, num) {
     let newArr = [];
     while (num >= 1) {
