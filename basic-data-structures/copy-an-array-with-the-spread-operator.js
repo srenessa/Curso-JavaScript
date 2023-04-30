@@ -1,10 +1,10 @@
 function copyMachine(arr, num) {
     let newArr = [];
     while (num >= 1) {
-    
-      num--;
+
+        num--;
     }
     return newArr;
-  }
-  
-  console.log(copyMachine([true, false, true], 2));
+}
+
+console.log(copyMachine([true, false, true], 2));
