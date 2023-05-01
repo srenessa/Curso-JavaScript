@@ -13,7 +13,7 @@ fruits.indexOf('dates');
 fruits.indexOf('oranges');
 fruits.indexOf('pears');
 
-indexOf('dates') retorna -1(porque não existe esse elemento), indexOf('oranges') retorna 2 e indexOf('pears') retorna 1 (o primeiro índice no qual cada elemento existe).
+indexOf('dates') retorna -1(porque não existe esse elemento no array), indexOf('oranges') retorna 2(número do índice) e indexOf('pears') retorna 1 (o primeiro índice no qual cada elemento existe).
 */
 
 function quickCheck(arr, elem) {
