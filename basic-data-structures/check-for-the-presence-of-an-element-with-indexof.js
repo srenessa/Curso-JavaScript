@@ -19,11 +19,11 @@ indexOf('dates') retorna -1(porque não existe esse elemento no array), indexOf(
 // Definimos uma função, quickCheck, que recebe um array e um elemento como argumentos. Modifique a função usando indexOf() para que ela retorne true se o elemento passado existir na matriz e false se não existir.
 
 function quickCheck(arr, elem) {
-    if(arr.indexOf(elem)>=0){
-   return true;
+    if (arr.indexOf(elem) >= 0) {
+        return true;
     }
     return false;
-     
-   }
-   
-   console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+}
+
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
