@@ -15,7 +15,7 @@ thatArray teria o valor ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'th
 
 function spreadOut() {
     let fragment = ['to', 'code'];
-    let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
+    let sentence = ['learning', ...fragment, 'is', 'fun']; 
     return sentence;
 }
 
