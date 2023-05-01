@@ -2,7 +2,9 @@
 
 // Como os arrays podem ser alterados ou modificados a qualquer momento, não há garantia sobre onde um dado específico estará em um determinado array ou se esse elemento ainda existe.
 
-// O indexOf nos permite verificar rápida e facilmente a presença de um elemento em um array
+// O indexOf nos permite verificar rápido e facilmente a presença de um elemento em um array.
+
+// O indexOf() recebe um elemento como parâmetro e, quando chamado, retorna a posição ou índice desse elemento ou -1 se o elemento não existir no array.
 
 function quickCheck(arr, elem) {
 
