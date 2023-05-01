@@ -10,3 +10,11 @@ let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
 
 thatArray teria o valor ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander'].
 */
+
+function spreadOut() {
+    let fragment = ['to', 'code'];
+    let sentence; // Change this line
+    return sentence;
+  }
+  
+  console.log(spreadOut());
