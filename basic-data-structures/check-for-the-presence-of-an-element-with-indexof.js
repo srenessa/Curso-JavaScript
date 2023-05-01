@@ -16,6 +16,8 @@ fruits.indexOf('pears');
 indexOf('dates') retorna -1(porque não existe esse elemento no array), indexOf('oranges') retorna 2(número do índice) e indexOf('pears') retorna 1 (o primeiro índice no qual cada elemento existe).
 */
 
+// Definimos uma função, quickCheck, que recebe um array e um elemento como argumentos. Modifique a função usando indexOf() para que ela retorne true se o elemento passado existir na matriz e false se não existir.
+
 function quickCheck(arr, elem) {
 
 }
