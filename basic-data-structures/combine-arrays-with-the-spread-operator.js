@@ -11,6 +11,8 @@ let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
 thatArray teria o valor ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander'].
 */
 
+// Definimos uma função spreadOut que retorna a variável sentença. Modifique a função usando o operador spread para que retorne o array ['learning', 'to', 'code', 'is', 'fun'].
+
 function spreadOut() {
     let fragment = ['to', 'code'];
     let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
