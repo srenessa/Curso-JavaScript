@@ -4,6 +4,8 @@
 
 // Usando um loop for, essa função itera e acessa cada elemento do array e o submete a um teste simples que criamos.
 
+// Definimos uma função, filterArray, que recebe arr, um array aninhado e elem como argumentos e retorna um novo array. elem representa um elemento que pode ou não estar presente em um ou mais arrays aninhados em arr.
+
 function filteredArray(arr, elem) {
     let newArr = [];
     
