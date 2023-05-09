@@ -1,8 +1,6 @@
 // Iterar todos os itens de uma matriz usando loops For.
 
-// O JavaScript oferece vários métodos integrados que iteram sobre arrays de maneiras ligeiramente diferentes para obter resultados diferentes (como every(), forEach(), map(), etc.)
-
-// Porém, a técnica que é mais flexível e nos oferece a maior quantidade de controle é um loop for simples.
+// Ao trabalhar com arrays, é útil iterar em cada item para encontrar elementos necessários ou manipular o array com base em critérios específicos. O JavaScript tem vários métodos integrados para iterar arrays(como every(), forEach(), map(), etc.), mas um loop for simples é a técnica mais flexível e que oferece maior controle.
 
 // Usando um loop for, essa função itera e acessa cada elemento do array e o submete a um teste simples que criamos.
 
