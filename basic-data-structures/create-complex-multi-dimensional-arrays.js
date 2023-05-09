@@ -2,6 +2,8 @@
 
 // Um dos recursos mais poderosos ao pensar em arrays como estruturas de dados é que os arrays podem conter ou até mesmo ser completamente compostos de outros arrays.
 
+// Os arrays podem conter uma profundidade infinita de arrays que podem conter outros arrays, cada um com seus próprios níveis arbitrários de profundidade e assim por diante.
+
 let myNestedArray = [
     // Only change code below this line
     ['unshift', false, 1, 2, 3, 'complex', 'nested'],
