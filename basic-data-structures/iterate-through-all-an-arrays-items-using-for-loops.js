@@ -7,9 +7,8 @@
 function filteredArray(arr, elem) {
     let newArr = [];
     for (let i = 0; i < arr.length; i++) {
-        if (arr[i].indexOf(elem) == -1) {
-            //Verifica todos os parâmetros do elemento e se NÃO estiver lá continua o código
-            newArr.push(arr[i]); //Inserts the element of the array in the new filtered array
+        if (arr[i].indexOf(elem) == -1) { //Verifica todos os parâmetros do elemento e se NÃO estiver lá continua o código
+            newArr.push(arr[i]); //Insere o elemento do array no novo array filtrado
         }
     }
 
