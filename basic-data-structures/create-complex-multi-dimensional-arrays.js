@@ -8,6 +8,8 @@
 
 // A matriz profunda é aninhada em 2 níveis de profundidade. As matrizes mais profundas têm 3 níveis de profundidade. As matrizes mais profundas são de 4 níveis de profundidade e assim por diante.
 
+// Podemos acessar facilmente os níveis mais profundos de uma matriz tão complexa com a notação de colchetes: console.log(nestedArray[2][1][0][0][0]);
+
 let myNestedArray = [
 
     ['unshift', false, 1, 2, 3, 'complex', 'nested'],
