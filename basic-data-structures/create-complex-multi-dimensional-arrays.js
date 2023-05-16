@@ -11,6 +11,9 @@
 // Podemos acessar facilmente os níveis mais profundos de uma matriz tão complexa com a notação de colchetes: console.log(nestedArray[2][1][0][0][0]);
 // E agora que sabemos onde está esse dado, podemos redefini-lo se precisarmos: nestedArray[2][1][0][0][0] = 'deeper still';
 
+// Modifique myNestedArray, usando qualquer combinação de strings, números e booleanos para elementos de dados, para que tenha exatamente cinco níveis de profundidade (lembre-se, o array mais externo é o nível 1). Em algum lugar no terceiro nível, inclua a string profunda, no quarto nível, inclua a string mais profunda e, no quinto nível, inclua a string mais profunda.
+
+
 let myNestedArray = [
 
     ['unshift', false, 1, 2, 3, 'complex', 'nested'],
