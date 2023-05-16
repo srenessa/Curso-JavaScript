@@ -6,6 +6,8 @@
 
 // Dessa forma, um array pode rapidamente se tornar uma estrutura de dados muito complexa, conhecida como array multidimensional ou aninhado.
 
+// A matriz profunda é aninhada em 2 níveis de profundidade. As matrizes mais profundas têm 3 níveis de profundidade. As matrizes mais profundas são de 4 níveis de profundidade e assim por diante.
+
 let myNestedArray = [
 
     ['unshift', false, 1, 2, 3, 'complex', 'nested'],
