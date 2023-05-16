@@ -4,6 +4,8 @@
 
 // Os arrays podem conter uma profundidade infinita de arrays que podem conter outros arrays, cada um com seus próprios níveis arbitrários de profundidade e assim por diante.
 
+// Dessa forma, um array pode rapidamente se tornar uma estrutura de dados muito complexa, conhecida como array multidimensional ou aninhado.
+
 let myNestedArray = [
 
     ['unshift', false, 1, 2, 3, 'complex', 'nested'],
