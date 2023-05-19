@@ -3,7 +3,6 @@
 // Basicamente, os objetos são apenas coleções de pares chave-valor. Em outras palavras, são pedaços de dados (valores) mapeados para identificadores únicos chamados propriedades (chaves). 
 
 /*
-
 const tekkenCharacter = {
     player: 'Hwoarang',
     fightingStyle: 'Tae Kwon Doe',
@@ -11,6 +10,8 @@ const tekkenCharacter = {
 };
 
 O código acima define um objeto de personagem de videogame Tekken chamado tekkenCharacter. Ele tem três propriedades, cada uma mapeando para um valor específico. Se você quiser adicionar uma propriedade adicional, como "origem", isso pode ser feito atribuindo origem ao objeto:
+
+tekkenCharacter.origin = 'South Korea';
 
 */
 
