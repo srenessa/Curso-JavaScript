@@ -1,5 +1,7 @@
 // Adicionar pares chave-valor a objetos JavaScript
 
+// Basicamente, os objetos são apenas coleções de pares chave-valor. Em outras palavras, são pedaços de dados (valores) mapeados para identificadores únicos chamados propriedades (chaves). 
+
 let foods = {
     apples: 25,
     oranges: 32,
