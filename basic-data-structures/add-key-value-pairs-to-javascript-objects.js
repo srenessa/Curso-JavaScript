@@ -2,6 +2,15 @@
 
 // Basicamente, os objetos são apenas coleções de pares chave-valor. Em outras palavras, são pedaços de dados (valores) mapeados para identificadores únicos chamados propriedades (chaves). 
 
+/*
+
+const tekkenCharacter = {
+  player: 'Hwoarang',
+  fightingStyle: 'Tae Kwon Doe',
+  human: true
+};
+*/
+
 let foods = {
     apples: 25,
     oranges: 32,
