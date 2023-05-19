@@ -5,9 +5,9 @@
 /*
 
 const tekkenCharacter = {
-  player: 'Hwoarang',
-  fightingStyle: 'Tae Kwon Doe',
-  human: true
+    player: 'Hwoarang',
+    fightingStyle: 'Tae Kwon Doe',
+    human: true
 };
 */
 
