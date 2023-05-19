@@ -9,6 +9,9 @@ const tekkenCharacter = {
     fightingStyle: 'Tae Kwon Doe',
     human: true
 };
+
+// O código acima define um objeto de personagem de videogame Tekken chamado tekkenCharacter.
+
 */
 
 let foods = {
