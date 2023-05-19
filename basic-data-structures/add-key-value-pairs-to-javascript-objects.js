@@ -10,7 +10,7 @@ const tekkenCharacter = {
     human: true
 };
 
-// O código acima define um objeto de personagem de videogame Tekken chamado tekkenCharacter.
+O código acima define um objeto de personagem de videogame Tekken chamado tekkenCharacter. Ele tem três propriedades, cada uma mapeando para um valor específico. Se você quiser adicionar uma propriedade adicional, como "origem", isso pode ser feito atribuindo origem ao objeto:
 
 */
 
