@@ -32,8 +32,8 @@ let foods = {
     plums: 28
 };
 
-foods.bananas = 13;
-foods.grapes = 35;
-foods.strawberries = 27;
+foods.bananas = 13; // notação de ponto
+foods['grapes'] = 35;// notação de colchete
+foods.strawberries = 27; // notação de ponto
 
 console.log(foods);
