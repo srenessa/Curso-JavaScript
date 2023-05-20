@@ -23,6 +23,9 @@ A notação de colchetes é necessária se sua propriedade tiver um espaço ou s
 
 Sem aspas, ela será avaliada como uma variável e o nome da propriedade será qualquer que seja o valor da variável.
 */
+
+// Um objeto de alimentos foi criado com três entradas. Usando a sintaxe de sua escolha, adicione mais três entradas a ela: bananas com valor 13, uvas com valor 35 e morangos com valor 27.
+
 let foods = {
     apples: 25,
     oranges: 32,
