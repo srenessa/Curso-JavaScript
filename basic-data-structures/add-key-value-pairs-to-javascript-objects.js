@@ -19,7 +19,7 @@ Isso usa a notação de ponto. Se você observar o objeto tekkenCharacter, ele a
 /*
 tekkenCharacter['hair color'] = 'dyed orange';
 
-A notação de colchetes é necessária se sua propriedade tiver um espaço ou se você quiser usar uma variável para nomear a propriedade.
+A notação de colchetes é necessária se sua propriedade tiver um espaço ou se você quiser usar uma variável para nomear a propriedade.No caso acima, a propriedade é colocada entre aspas para denotá-la como uma string e será adicionada exatamente como mostrado.
 */
 let foods = {
     apples: 25,
