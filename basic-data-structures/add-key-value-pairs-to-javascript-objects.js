@@ -13,8 +13,14 @@ O código acima define um objeto de personagem de videogame Tekken chamado tekke
 
 tekkenCharacter.origin = 'South Korea';
 
+Isso usa a notação de ponto. Se você observar o objeto tekkenCharacter, ele agora incluirá a propriedade origin.
 */
 
+/*
+tekkenCharacter['hair color'] = 'dyed orange';
+
+A notação de colchetes é necessária se sua propriedade tiver um espaço ou se você quiser usar uma variável para nomear a propriedade.
+*/
 let foods = {
     apples: 25,
     oranges: 32,
