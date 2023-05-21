@@ -22,10 +22,11 @@ tekkenCharacter['hair color'] = 'dyed orange';
 A notação de colchetes é necessária se sua propriedade tiver um espaço ou se você quiser usar uma variável para nomear a propriedade.No caso acima, a propriedade é colocada entre aspas para denotá-la como uma string e será adicionada exatamente como mostrado.
 
 Sem aspas, ela será avaliada como uma variável e o nome da propriedade será qualquer que seja o valor da variável.
-*/
 
-// Um objeto de alimentos foi criado com três entradas. Usando a sintaxe de sua escolha, adicione mais três entradas a ela: bananas com valor 13, uvas com valor 35 e morangos com valor 27.
 
+Um objeto de alimentos foi criado com três entradas. Usando a sintaxe de sua escolha, adicione mais três entradas a ela: bananas com valor 13, uvas com valor 35 e morangos com valor 27.
+
+ */
 let foods = {
     apples: 25,
     oranges: 32,
