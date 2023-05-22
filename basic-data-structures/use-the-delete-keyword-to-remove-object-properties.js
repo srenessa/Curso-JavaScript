@@ -14,10 +14,8 @@ let foods = {
     bananas: 13,
     grapes: 35,
     strawberries: 27
-  };
-  
-  // Only change code below this line
-  
-  // Only change code above this line
-  
-  console.log(foods);
+};
+
+
+
+console.log(foods);
