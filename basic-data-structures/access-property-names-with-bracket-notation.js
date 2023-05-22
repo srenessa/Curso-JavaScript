@@ -13,12 +13,10 @@ let foods = {
     bananas: 13,
     grapes: 35,
     strawberries: 27
-  };
-  
-  function checkInventory(scannedItem) {
-    // Only change code below this line
-  
-    // Only change code above this line
-  }
-  
-  console.log(checkInventory("apples"));
+};
+
+function checkInventory(scannedItem) {
+
+}
+
+console.log(checkInventory("apples"));
