@@ -34,5 +34,6 @@ let userActivity = {
     }
 };
 
+userActivity.data.online = 45;
 
 console.log(userActivity);
