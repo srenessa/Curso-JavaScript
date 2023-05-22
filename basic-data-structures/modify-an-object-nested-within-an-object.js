@@ -25,3 +25,14 @@ nestedObject.data.onlineStatus.busy = 10;
 
 // Aqui definimos um objeto userActivity, que inclui outro objeto aninhado dentro dele. Defina o valor da chave online para 45.
 
+let userActivity = {
+    id: 23894201352,
+    date: 'January 1, 2017',
+    data: {
+        totalUsers: 51,
+        online: 42
+    }
+};
+
+
+console.log(userActivity);
