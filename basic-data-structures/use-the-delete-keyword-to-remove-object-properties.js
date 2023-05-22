@@ -4,4 +4,4 @@
 
 // Em desafios anteriores, adicionamos e modificamos os pares chave-valor de um objeto. Aqui veremos como podemos remover um par chave-valor de um objeto.
 
-// Para remover deve-se utilizar o parâmetro delete, seguido do nome do objeto e por fim o elemento do objeto. Por exemplo: delete foods.apples;
+// Para remover deve-se utilizar o comando delete, seguido do nome do objeto e por fim utilizaremos a propriedade que queremos remover do objeto. Por exemplo: delete foods.apples;
