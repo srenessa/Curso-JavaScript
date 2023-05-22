@@ -1,0 +1,1 @@
+// Use a palavra-chave delete para remover as propriedades do objeto
