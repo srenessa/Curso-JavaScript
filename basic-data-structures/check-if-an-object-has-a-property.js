@@ -13,28 +13,28 @@ Ambos retornariam true.
 */
 
 // let users = {
-  Alan: {
+Alan: {
     age: 27,
-    online: true
-  },
-  Jeff: {
+        online: true
+},
+Jeff: {
     age: 32,
-    online: true
-  },
-  Sarah: {
+        online: true
+},
+Sarah: {
     age: 48,
-    online: true
-  },
-  Ryan: {
+        online: true
+},
+Ryan: {
     age: 19,
-    online: true
-  }
+        online: true
+}
 };
 
 function isEveryoneHere(userObj) {
-  // Only change code below this line
-  
-  // Only change code above this line
+    // Only change code below this line
+
+    // Only change code above this line
 }
 
 console.log(isEveryoneHere(users));
