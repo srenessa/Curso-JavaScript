@@ -12,7 +12,7 @@ users.hasOwnProperty('Alan');
 Ambos retornariam true.
 */
 
-// let users = {
+let users = {
 Alan: {
     age: 27,
         online: true
