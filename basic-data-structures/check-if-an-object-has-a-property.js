@@ -9,4 +9,5 @@
 users.hasOwnProperty('Alan');
 'Alan' in users;
 
+Ambos retornariam true.
 */
