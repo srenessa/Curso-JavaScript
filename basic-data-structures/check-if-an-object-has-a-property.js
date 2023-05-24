@@ -34,7 +34,10 @@ Ryan: {
 };
 
 function isEveryoneHere(userObj) {
-
+    return userObj.hasOwnProperty('Alan') &&
+    userObj.hasOwnProperty('Jeff') &&
+    userObj.hasOwnProperty('Sarah') &&
+    userObj.hasOwnProperty('Ryan');
 }
 
 console.log(isEveryoneHere(users));
