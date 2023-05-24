@@ -12,6 +12,8 @@ users.hasOwnProperty('Alan');
 Ambos retornariam true.
 */
 
+// Termine de escrever a função para que ela retorne true se o objeto passado a ela contiver todos os quatro nomes, Alan, Jeff, Sarah e Ryan e retorne false caso contrário.
+
 let users = {
 Alan: {
     age: 27,
