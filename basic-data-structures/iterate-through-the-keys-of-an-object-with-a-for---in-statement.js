@@ -1,0 +1,1 @@
+// Iterar pelas chaves de um objeto com uma instrução for...in
