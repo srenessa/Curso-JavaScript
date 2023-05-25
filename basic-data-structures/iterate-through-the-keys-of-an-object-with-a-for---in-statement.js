@@ -2,6 +2,8 @@
 
 // Às vezes, você precisa percorrer todas as chaves de um objeto. Você pode usar um loop for...in para fazer isso.
 
+// NOTA: Os objetos não mantêm uma ordem para as chaves armazenadas como os arrays; portanto, a posição de uma chave em um objeto, ou a ordem relativa em que ela aparece, é irrelevante ao referenciar ou acessar essa chave.
+
 const users = {
     Alan: {
         online: false
