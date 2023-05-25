@@ -17,7 +17,7 @@ const users = {
 }
 
 function countOnline(allUsers) {
- 
+
 }
 
 console.log(countOnline(users));
