@@ -15,29 +15,29 @@ Ambos retornariam true.
 // Termine de escrever a função para que ela retorne true se o objeto passado a ela contiver todos os quatro nomes, Alan, Jeff, Sarah e Ryan e retorne false caso contrário.
 
 let users = {
-Alan: {
-    age: 27,
+    Alan: {
+        age: 27,
         online: true
-},
-Jeff: {
-    age: 32,
+    },
+    Jeff: {
+        age: 32,
         online: true
-},
-Sarah: {
-    age: 48,
+    },
+    Sarah: {
+        age: 48,
         online: true
-},
-Ryan: {
-    age: 19,
+    },
+    Ryan: {
+        age: 19,
         online: true
-}
+    }
 };
 
 function isEveryoneHere(userObj) {
     return userObj.hasOwnProperty('Alan') &&
-    userObj.hasOwnProperty('Jeff') &&
-    userObj.hasOwnProperty('Sarah') &&
-    userObj.hasOwnProperty('Ryan');
+        userObj.hasOwnProperty('Jeff') &&
+        userObj.hasOwnProperty('Sarah') &&
+        userObj.hasOwnProperty('Ryan');
 }
 
 console.log(isEveryoneHere(users));

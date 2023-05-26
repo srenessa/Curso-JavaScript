@@ -19,7 +19,16 @@ const users = {
 }
 
 function countOnline(allUsers) {
+    let count = 0;
+    for (let cu in allUsers) {
+        
+        if (allUsers[cu].online == true) {
+            count++;
+            console.log(cu);
+        }
 
+    }
+    return count;
 }
 
 console.log(countOnline(users));
