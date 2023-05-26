@@ -20,11 +20,11 @@ const users = {
 
 function countOnline(allUsers) {
     let count = 0;
-    for (let cu in allUsers) {
+    for (let objeto in allUsers) {
         
-        if (allUsers[cu].online == true) {
+        if (allUsers[objeto].online == true) {
             count++;
-            console.log(cu);
+            console.log(objeto);
         }
 
     }
