@@ -2,7 +2,7 @@
 
 // Também podemos gerar um array que contém todas as chaves armazenadas em um objeto com o método Object.keys().
 
-// Esse método usa um objeto como argumento e retorna uma matriz de strings representando cada propriedade no objeto.
+// Esse método usa um objeto como argumento e retorna uma matriz de strings representando cada propriedade no objeto.Novamente, não haverá ordem específica para as entradas na matriz.
 
 
 let users = {
