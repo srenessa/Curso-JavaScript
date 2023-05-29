@@ -4,6 +4,8 @@
 
 // O objeto de usuário(user) contém três chaves. A chave de dados(date) contém cinco chaves, uma das quais contém uma matriz de amigos(friends). A partir disso, você pode ver como os objetos são flexíveis como estruturas de dados. Começamos a escrever uma função addFriend. Termine de escrevê-lo para que ele pegue um objeto de usuário(user) e adicione o nome do argumento amigo(friend) ao array armazenado em user.data.friends e retorne esse array.
 
+// Dentro da função, usamos a notação de ponto para acessar a propriedade friends dentro do objeto data no userObj. Em seguida, usamos o método push para adicionar o nome do amigo (friend) ao final do array friends.
+
 
 let user = {
     name: 'Kenneth',
