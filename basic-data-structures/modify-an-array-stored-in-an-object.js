@@ -2,7 +2,7 @@
 
 // Agora você já viu todas as operações básicas para objetos JavaScript. Você pode adicionar, modificar e remover pares chave-valor, verificar se existem chaves e iterar todas as chaves em um objeto.
 
-// O objeto de usuário contém três chaves. A chave de dados contém cinco chaves, uma das quais contém uma matriz de amigos.
+// O objeto de usuário contém três chaves. A chave de dados contém cinco chaves, uma das quais contém uma matriz de amigos. A partir disso, você pode ver como os objetos são flexíveis como estruturas de dados. Começamos a escrever uma função addFriend.
 
 
 let user = {
