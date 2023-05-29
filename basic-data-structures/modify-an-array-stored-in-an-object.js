@@ -1,5 +1,7 @@
 // Modificar uma matriz armazenada em um objeto
 
+// Agora você já viu todas as operações básicas para objetos JavaScript. Você pode adicionar, modificar e remover pares chave-valor, verificar se existem chaves e iterar todas as chaves em um objeto.
+
 
 let user = {
     name: 'Kenneth',
