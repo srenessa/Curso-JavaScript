@@ -4,6 +4,8 @@
 
 // Esse método usa um objeto como argumento e retorna uma matriz de strings representando cada propriedade no objeto.Novamente, não haverá ordem específica para as entradas na matriz.
 
+// Termine de escrever a função getArrayOfUsers para que ela retorne um array contendo todas as propriedades do objeto que recebe como argumento(Alan, Jeff, Sarah,Ryan).
+
 
 let users = {
     Alan: {
