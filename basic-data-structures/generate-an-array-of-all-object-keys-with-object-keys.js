@@ -1,5 +1,7 @@
 // Gere uma matriz de todas as chaves de objeto com Object.keys()
 
+// Também podemos gerar um array que contém todas as chaves armazenadas em um objeto com o método Object.keys().
+
 
 let users = {
     Alan: {
