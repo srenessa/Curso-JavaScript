@@ -3,6 +3,7 @@
 // Inverta a string fornecida e retorne a string invertida.
 
 function reverseString(str) {
+
     // Inicializa a nova string invertida
     var reversedString = '';
 
@@ -11,7 +12,7 @@ function reverseString(str) {
         // Adiciona cada caractere à nova string
         reversedString += str[i];
     }
-    
+
     // Retorna a string invertida
     return reversedString;
 }
