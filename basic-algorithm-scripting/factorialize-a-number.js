@@ -6,12 +6,10 @@
 
 // Os fatoriais são frequentemente representados com a notação abreviada n!
 
-function factorialize(num) {
-    let resultado = 1;
+// Por exemplo: 5! = 1 * 2 * 3 * 4 * 5 = 120
 
-    for (let i= 1; i <= num; i++ ) {
-        resultado *= i;
-    }
+function factorialize(num) {
+    return num;
 }
 
 factorialize(5);
