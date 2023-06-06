@@ -1,3 +1,7 @@
+// Inverter uma String Versão dois
+
+// ---------------------------------------------------------------------------------
+
 // 1. A função 'reverseString' é definida, que recebe uma string 'str' como parâmetro.
 
 // 2. Uma variável 'reversedString' é inicializada como uma string vazia. Essa variável será usada para construir a nova string invertida.
@@ -11,8 +15,6 @@
 // 6. Por fim, a função retorna a string 'reversedString', que contém a versão invertida da string original.
 
 // 7. Ao chamar 'reverseString'("hello"), a função retornará a string "olleh", que é a versão invertida de "hello".
-
-
 
 function reverseString(str) {
     let reversedStr = "";
