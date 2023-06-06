@@ -10,6 +10,8 @@
 
 // 6. Por fim, a função retorna a string 'reversedString', que contém a versão invertida da string original.
 
+// 7. Ao chamar 'reverseString'("hello"), a função retornará a string "olleh", que é a versão invertida de "hello".
+
 
 
 function reverseString(str) {
