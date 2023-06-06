@@ -14,17 +14,17 @@ function reverseString(str) {
 
     //1
     let separar_string = str.split('');
-    console.log(">>> retornando a string separada " + separar_string);
+    console.log(">>> retornando string separada " + separar_string);
 
     //2
     let inverter_string = separar_string.reverse();
-    console.log(">>>retornando string invertida e separada " + inverter_string);
+    console.log(">>> retornando string invertida e separada " + inverter_string);
 
     //3
     let juntar_string = inverter_string.join('');
-    console.log(">>>retornar string " + juntar_string);
+    console.log(">>> retornando string junta e invertida" + juntar_string);
 
-    return str;
+    return reverseString;
 }
 
 reverseString("hello");
