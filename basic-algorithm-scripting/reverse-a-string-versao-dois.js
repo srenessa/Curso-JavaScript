@@ -4,7 +4,7 @@
 
 // 3. O próximo passo é percorrer a string 'str' de trás para frente. Para isso, é utilizado um loop 'for' com uma variável 'i' que começa no últi'mo índice da string ('str.length - 1') e decrementa a cada iteração até chegar a 0 (i >= 0).
 
-// 4. Dentro do loop, em cada iteração, o caractere correspondente ao índice i é adicionado à variável reversedString usando o operador de concatenação +=. Isso s
+// 4. Dentro do loop, em cada iteração, o caractere correspondente ao índice 'i' é adicionado à variável 'reversedString' usando o operador de concatenação '+='. Isso significa que cada caractere encontrado é adicionado à nova string invertida.
 
 
 
