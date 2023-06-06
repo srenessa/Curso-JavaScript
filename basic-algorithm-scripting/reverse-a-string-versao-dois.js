@@ -1,5 +1,7 @@
 // Inverter uma String Versão dois
 
+// Inverta a string fornecida e retorne a string invertida. Por exemplo, "Hello" deve se tornar "olleh".
+
 // ---------------------------------------------------------------------------------
 
 // 1. A função 'reverseString' é definida, que recebe uma string 'str' como parâmetro.
