@@ -4,9 +4,9 @@
 
 // --------------------------------------------------------------------------------
 
-// 1.O método split() divide uma string em um array de substrings, coloca essas substrings em um array e retorna o array. A divisão é feita procurando um padrão,  Se (" "/ ' ') for usado como separador, a string será dividida entre as palavras.
+// 1. O método split() divide uma string em um array de substrings, coloca essas substrings em um array e retorna o array. A divisão é feita procurando um padrão,  Se (" "/ ' ') for usado como separador, a string será dividida entre as palavras.
 
-// 2.
+// 2. O método reverse() inverte um array no lugar e retorna a referência ao mesmo array, o primeiro elemento do array se tornando o último, e o último elemento do array se tornando o primeiro
 
 // 3. O método join() junta todos os elementos de um array (ou um array-like object) em uma string e retorna esta string.
 
