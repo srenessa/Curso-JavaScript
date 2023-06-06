@@ -1,3 +1,5 @@
+
+
 // 1.
 
 // 2.
@@ -6,18 +8,17 @@
 
 function reverseString(str) {
 
+    //1
     let separar_string = str.split('');
     console.log(">>> retornando string string " + separar_string);
 
+    //2
     let inverter_string = separar_string.reverse();
     console.log(">>>retornando string invertida e separada " + inverter_string);
 
+    //3
     let juntar_string = inverter_string.join('');
     console.log(">>>retornar string " + juntar_string);
-
-
-
-
 
     return str;
 }
