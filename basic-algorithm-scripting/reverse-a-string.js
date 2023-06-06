@@ -1,6 +1,6 @@
 // Inverter uma String
 
-// Inverta a string fornecida e retorne a string invertida. Por exemplo, "olá" deve se tornar "olleh".
+// Inverta a string fornecida e retorne a string invertida. Por exemplo, "Hello" deve se tornar "olleh".
 
 // --------------------------------------------------------------------------------
 
