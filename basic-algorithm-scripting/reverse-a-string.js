@@ -2,7 +2,9 @@
 
 // Inverta a string fornecida e retorne a string invertida. Por exemplo, "olá" deve se tornar "olleh".
 
-// 1.
+// --------------------------------------------------------------------------------
+
+// 1.O método split() divide uma string em um array de substrings, coloca essas substrings em um array e retorna o array. A divisão é feita procurando um padrão,  Se (" "/ ' ') for usado como separador, a string será dividida entre as palavras.
 
 // 2.
 
