@@ -11,4 +11,3 @@ function convertCtoF(celsius) {
 
 console.log(convertCtoF(30));
 
-
