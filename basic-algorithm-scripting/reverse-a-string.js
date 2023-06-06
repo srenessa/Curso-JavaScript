@@ -8,13 +8,13 @@
 
 // 2. O método reverse() inverte um array no lugar e retorna a referência ao mesmo array, o primeiro elemento do array se tornando o último, e o último elemento do array se tornando o primeiro
 
-// 3. O método join() junta todos os elementos de um array (ou um array-like object) em uma string e retorna esta string.
+// 3. O método join() junta todos os elementos de um array em uma string e retorna esta string.
 
 function reverseString(str) {
 
     //1
     let separar_string = str.split('');
-    console.log(">>> retornando string string " + separar_string);
+    console.log(">>> retornando a string separada " + separar_string);
 
     //2
     let inverter_string = separar_string.reverse();
