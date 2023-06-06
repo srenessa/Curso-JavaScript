@@ -1,20 +1,26 @@
-// Inverter uma String
+// 1.
 
-// Inverta a string fornecida e retorne a string invertida.
+// 2.
+
+// 3. O método join() cria e retorna uma nova string concatenando todos os elementos em uma matriz (ou um objeto semelhante a uma matriz).
+
 
 function reverseString(str) {
 
-    // Inicializa a nova string invertida
-    var reversedString = '';
+    let separar_string = str.split('');
+    console.log(">>> retornando string string " + separar_string);
 
-    // Percorre a string de trás para frente
-    for (var i = str.length - 1; i >= 0; i--) {
-        // Adiciona cada caractere à nova string
-        reversedString += str[i];
-    }
+    let inverter_string = separar_string.reverse();
+    console.log(">>>retornando string invertida e separada " + inverter_string);
 
-    // Retorna a string invertida
-    return reversedString;
+    let juntar_string = inverter_string.join('');
+    console.log(">>>retornar string " + juntar_string);
+
+
+
+
+
+    return str;
 }
 
-reverseString("hello");  // Retorna "olleh"
+reverseString("hello");
