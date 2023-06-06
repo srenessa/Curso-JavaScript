@@ -2,8 +2,7 @@
 
 // 2.
 
-// 3. O método join() cria e retorna uma nova string concatenando todos os elementos em uma matriz (ou um objeto semelhante a uma matriz).
-
+// 3. O método join() junta todos os elementos de um array (ou um array-like object) em uma string e retorna esta string.
 
 function reverseString(str) {
 
