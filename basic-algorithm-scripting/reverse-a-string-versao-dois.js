@@ -6,6 +6,8 @@
 
 // 4. Dentro do loop, em cada iteração, o caractere correspondente ao índice 'i' é adicionado à variável 'reversedString' usando o operador de concatenação '+='. Isso significa que cada caractere encontrado é adicionado à nova string invertida.
 
+// 5. Após percorrer todos os caracteres da string 'str' e adicioná-los à 'reversedString', o loop é concluído.
+
 
 
 function reverseString(str) {
