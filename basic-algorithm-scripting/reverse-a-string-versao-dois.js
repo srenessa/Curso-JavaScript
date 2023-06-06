@@ -1,10 +1,10 @@
-// 1. A função reverseString é definida, que recebe uma string str como parâmetro.
+// 1. A função 'reverseString' é definida, que recebe uma string 'str' como parâmetro.
 
-// 2. Uma variável reversedString é inicializada como uma string vazia. Essa variável será usada para construir a nova string invertida.
+// 2. Uma variável 'reversedString' é inicializada como uma string vazia. Essa variável será usada para construir a nova string invertida.
 
-// 3. O próximo passo é percorrer a string str de trás para frente. Para isso, é utilizado um loop for com uma variável i que começa no último índice da string (str.length - 1) e decrementa a cada iteração até chegar a 0 (i >= 0).
+// 3. O próximo passo é percorrer a string 'str' de trás para frente. Para isso, é utilizado um loop 'for' com uma variável 'i' que começa no últi'mo índice da string ('str.length - 1') e decrementa a cada iteração até chegar a 0 (i >= 0).
 
-// 4.
+// 4. Dentro do loop, em cada iteração, o caractere correspondente ao índice i é adicionado à variável reversedString usando o operador de concatenação +=. Isso s
 
 
 
