@@ -8,6 +8,8 @@
 
 // 5. Após percorrer todos os caracteres da string 'str' e adicioná-los à 'reversedString', o loop é concluído.
 
+// 6. Por fim, a função retorna a string 'reversedString', que contém a versão invertida da string original.
+
 
 
 function reverseString(str) {
