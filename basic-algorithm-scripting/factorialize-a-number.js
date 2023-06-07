@@ -9,7 +9,12 @@
 // Por exemplo: 5! = 1 * 2 * 3 * 4 * 5 = 120
 
 function factorialize(num) {
-    return num;
+    let fatorialNum = 1;
+    for (let i = 1; i <= num; i++) {
+        fatorialNum = fatorialNum * i;
+    }
+
+    return fatorialNum;
 }
 
-factorialize(5);
+console.log(factorialize(5));
