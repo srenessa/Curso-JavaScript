@@ -6,14 +6,20 @@
 function findLongestWordLength(str) {
 
     // Dividir uma frase em palavras 
-    var SepararPalavras = str.split(" ");
+    let separarPalavras = str.split(" ");
 
-    var MaioQuantidadeDeLetra = 0;
+    let maiorQuantidadeDeLetras = 0;
 
-    for( var i = 0; i < SepararPalavras.length; i++){
-    
+
+    for (let i = 0; i < separarPalavras.length; i++) {
+        let aux = separarPalavras[i].length;
+
+        if (aux > maiorQuantidadeDeLetras) {
+            maiorQuantidadeDeLetras = aux;
+        }
     }
-    return palavra;
+
+    return maiorQuantidadeDeLetras;
 
 }
 
