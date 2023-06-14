@@ -5,22 +5,21 @@
 
 function findLongestWordLength(str) {
 
-// separar por palavra 
-    let SepararPorPalavra = str.split(" ");
-    return SepararPorPalavra;
+    // Dividir uma frase em palavras 
+    var SepararPalavras = str.split(" ");
 
-    let PalavraLonga = 0;
+    var MaioQuantidadeDeLetra = 0;
 
-
-    for(let i = 0; i<=7; i++){
-
+    for( var i = 0; i < SepararPalavras.length; i++){
+    
     }
+    return palavra;
 
 }
 
 // passo 1: passar palavra por palavra
 
-// passo 2: contar a quantidade de letra de cada palavra
+// passo 2: contar a quantidade de letra de cada palavra(usando length)
 
 // passo 3: verificar qual palavra tem mais letras
 
