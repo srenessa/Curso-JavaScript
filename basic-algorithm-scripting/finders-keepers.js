@@ -19,5 +19,7 @@ function findElement(arr, func) {
 }
 
 findElement([1, 2, 3, 4], num => num % 2 === 0);
+//o resultado será o primeiro elemento par encontrado no array, que é 2.
 
+// O que pede no exercício:
 // Crie uma função que examine um array arr e retorne o primeiro elemento nele que passe em um 'teste de verdade'. Isso significa que, dado um elemento x, o 'teste de verdade' é aprovado se func(x) for verdadeiro. Se nenhum elemento passar no teste, retorna indefinido.
