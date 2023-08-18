@@ -1,4 +1,5 @@
-//Title Case a Sentence
+// Title Case a Sentence
+// Retorne a string fornecida com a primeira letra de cada palavra em maiúscula. Certifique-se de que o restante da palavra esteja em letras minúsculas.
 
 // Definindo uma função chamada titleCase que recebe uma string como entrada
 function titleCase(str) {
