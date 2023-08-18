@@ -1,29 +1,31 @@
-// Title Case a Sentence
+//Title Case a Sentence
 
+// Definindo uma função chamada titleCase que recebe uma string como entrada
 function titleCase(str) {
 
-    const palavras = str.split(" ");
-    console.log(palavras);
+     // Convertendo a string para letras minúsculas e dividindo em palavras
+    let palavras = str.toLowerCase().split(" ");
 
+     // Iniciando um loop para percorrer cada palavra da frase
     for (let i = 0; i < palavras.length; i++) {
-        console.log(palavras[i]);
 
-        console.log(palavras[i][0]);
+         // Pegando a primeira letra de cada palavra
+        const primeiraLetra = palavras[i][0];
 
-        if(str >= 'A' && str <= 'Z'){
-            return String.fromCharCode(str.charCodeAt(0) + 32);
+         // Obtendo o código ASCII da primeira letra
+        const primeiraLetraCodigoAscii = primeiraLetra.charCodeAt(0);
+
+          // Verificando se a primeira letra é uma letra minúscula
+        if (primeiraLetraCodigoAscii >= 97 && primeiraLetraCodigoAscii <= 122) {
+
+              // Transformando a primeira letra em maiúscula e atualizando a palavra
+            palavras[i] = palavras[i].replace(primeiraLetra, String.fromCharCode(primeiraLetraCodigoAscii - 32));
         }
     }
 
+      // Juntando as palavras de volta em uma string e retornando o resultado
+    return palavras.join(' ');
 }
 
-titleCase("I'm a little tea pot");
-
-
-
-
-// Retorne a string fornecida com a primeira letra de cada palavra em maiúscula. Certifique-se de que o restante da palavra esteja em letras minúsculas. Para o propósito deste exercício, você também deve colocar palavras de ligação em maiúsculas como o e de.
-
-// separar as palavras com split
-// utilizar um for
-// utilizamos o método toUpperCase() para converter uma string em letras maiúsculas.
+// Chamando a função titleCase com a frase "I'm a little tea pot" e exibindo o resultado
+console.log(titleCase("I'm a little tea pot"));
