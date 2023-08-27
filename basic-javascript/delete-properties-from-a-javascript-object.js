@@ -1,11 +1,11 @@
 // Setup
 const myDog = {
-    "name": "Happy Coder",
-    "legs": 4,
-    "tails": 1,
-    "friends": ["freeCodeCamp Campers"],
-    "bark": "woof"
-  };
-   
-  //Excluindo a propriedade tails do objeto myDog em JavaScript
-  delete myDog.tails;
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+//Excluindo a propriedade tails do objeto myDog em JavaScript
+delete myDog.tails;

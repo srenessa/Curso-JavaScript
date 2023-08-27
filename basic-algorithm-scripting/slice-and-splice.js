@@ -1,6 +1,7 @@
 // Corte e Emenda
+
 function frankenSplice(arr1, arr2, n) {
-    return arr2;
+
 }
 
 frankenSplice([1, 2, 3], [4, 5, 6], 1);
@@ -13,4 +14,6 @@ frankenSplice([1, 2, 3], [4, 5, 6], 1);
 
 // Primeira matriz (array de entrada 1): [1, 2, 3]
 // Segunda matriz (array de entrada 2): [4, 5, 6]
-// 
+// n: 1
+
+// deve retornar [4,1,2,3,5,6]
