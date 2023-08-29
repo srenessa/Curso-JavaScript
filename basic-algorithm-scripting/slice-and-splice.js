@@ -1,6 +1,7 @@
 // Corte e Emenda
 
 function frankenSplice(arr1, arr2, n) {
+    // Criar uma cópia da segunda matriz arr2 para não alterar a matriz original(usando slice)
 
 }
 
