@@ -4,6 +4,9 @@ function frankenSplice(arr1, arr2, n) {
     // Criar uma cópia da segunda matriz arr2 para não alterar a matriz original(usando slice)
     NovaArr2 = arr2.slice();
     // Iterar pelos elementos da primeira matriz arr1(utilizando for)
+    for(let i = 0; i <arr1.length; i++ ){
+        
+    }
     // Inserir cada elemento da primeira matriz no índice n da nova matriz newArr2(n: 1)
     // Incrementar o índice n para a próxima iteração(i++)
     // Retornar a nova matriz resultante( com o return)
