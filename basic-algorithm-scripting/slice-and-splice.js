@@ -2,18 +2,23 @@
 
 function frankenSplice(arr1, arr2, n) {
     // Criar uma cópia da segunda matriz arr2 para não alterar a matriz original(usando slice)
-    NovaArr2 = arr2.slice();
+    NovoArr2 = arr2.slice();
     // Iterar pelos elementos da primeira matriz arr1(utilizando for)
-    for(let i = 0; i <arr1.length; i++ ){
-        
+    for (let i = 0; i < arr1.length; i++) {
+
+        NovoArr2.splice(n, 0, arr1[i]);
+        // Inserir cada elemento da primeira matriz no índice n da nova matriz newArr2(n: 1, utilizando o splice)
+
+        n++;
+        // Incrementar o índice n para a próxima iteração(i++)
+    
     }
-    // Inserir cada elemento da primeira matriz no índice n da nova matriz newArr2(n: 1)
-    // Incrementar o índice n para a próxima iteração(i++)
-    // Retornar a nova matriz resultante( com o return)
+    // Retornar a nova matriz resultante(utilizando o return)
+    return NovoArr2;
 
 }
 
-frankenSplice([1, 2, 3], [4, 5, 6], 1);
+console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
 
 
 // Você recebe dois arrays e um índice.
