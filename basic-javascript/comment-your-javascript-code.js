@@ -1,3 +1,7 @@
-// This is an in-line comment:/* This is a
+// comentário em linha
 
-/* This is a multi-line comment */
+/* comentários
+    em 
+    multiplas 
+    linhas
+ */
